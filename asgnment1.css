@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+nav {
+    background-color: #454f6f;
+    color: white;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    padding-bottom: 1px;
+
+
+    position: fixed
+}
+
+nav .main p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 00s;
+}
+
+h1 {
+    text-align: center;
+    padding: 100px;
+    background-color: #e6834c;
+    color: white;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.main2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 75px;
+    background-color: rgb(234, 240, 255);
+    margin: 30px;
+}
+
+.content {
+    text-align: left;
+}
+
+.row {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.row img {
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.row2 {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.row2 img {
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.row3 {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.row3 img {
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px
+}
+
+.row4 {
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.row4 img {
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Add padding to containers */
+.container h1 {
+    padding: 16px;
+    background: #f1f1f1;
+    color: black
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+footer {
+    background-color: #454f6f;
+    color: white;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    padding-bottom: 1px;
+    position: fixed;
+}
+
+footer .main33 p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+footer ul {
+    float: right;
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+}
+
+footer li a {
+    font-size: 18px;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 00s;
+}
+
+nav2 .coppy {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    padding-bottom: 1px;
+    background-color: #e6834c;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 640px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .boxes {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+
+    .abouttext {
+        width: 100%;
+    }
+}
